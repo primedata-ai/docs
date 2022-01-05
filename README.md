@@ -1,6 +1,6 @@
 # PrimeData Docs
 
-This document is live at https://primedata.ai/docs and https://primedata-ai.github.io/docs
+This document is live at https://primedata-ai.github.io/docs (will be also available at https://primedata.ai/docs shortly).
 
 It is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
