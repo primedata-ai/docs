@@ -68,7 +68,7 @@ const config = {
               },
               {
                 label: 'Facebook',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://www.facebook.com/PrimeDataAI',
               },
             ],
           },
