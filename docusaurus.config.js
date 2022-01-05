@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'PrimeData Docs',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
+  url: 'https://primedata.ai/',
+  baseUrl: '/docs/',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
-  organizationName: 'PrimeData',
-  projectName: '',
+  organizationName: 'primedata-ai',
+  projectName: 'docs',
 
   presets: [
     [
@@ -23,15 +23,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl: 'https://github.com/primedata-ai/docs/tree/main/docs',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -51,9 +45,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'ingesting-events',
             position: 'left',
-            label: 'Guide',
+            label: 'Guides',
           },
           {
             href: 'https://github.com/primedata.ai/docs',
@@ -65,15 +59,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
           {
             title: 'Explore',
             items: [
