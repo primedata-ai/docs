@@ -1,14 +1,8 @@
 # PrimeData Docs
 
+This document is live at https://primedata.ai/docs and https://primedata-ai.github.io/docs
 
-## Contributing
-
-Use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
-
-
----
-
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+It is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
 
@@ -32,7 +26,7 @@ $ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-### Deployment
+### Publish
 
 Using SSH:
 
@@ -45,5 +39,3 @@ Not using SSH:
 ```
 $ GIT_USER=<Your GitHub username> yarn deploy
 ```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
