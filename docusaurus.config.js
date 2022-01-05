@@ -50,7 +50,7 @@ const config = {
             label: 'Guides',
           },
           {
-            href: 'https://github.com/primedata.ai/docs',
+            href: 'https://github.com/primedata-ai/docs',
             label: 'GitHub',
             position: 'right',
           },
