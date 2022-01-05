@@ -4,6 +4,10 @@ This document is live at https://primedata-ai.github.io/docs (will be also avail
 
 It is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+### Contribute
+
+Documents' sources are located at [./docs](./docs). Check the below to see how to publish your changes.
+
 ### Installation
 
 ```
