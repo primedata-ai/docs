@@ -9,6 +9,6 @@ import Admonition from '@theme/Admonition';
 
 Some entries to get you started:
 
-- [Creating Data Sources Guide](docs/creating-data-sources)
+- [Creating Data Sources Guide](docs/setup/creating-data-sources)
 - [Event Tracking Guide](docs/ingesting-events)
 
