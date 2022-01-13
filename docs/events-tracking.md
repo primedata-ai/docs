@@ -21,7 +21,7 @@ These are the two mandatory headers to authenticate against Tracking API:
 - `X-Client-ID`
 - `X-Client-Access-Token`
 
-See [Register Data Sources](setup/creating-data-sources) to see how to acquire this pair.
+Check out [Register Data Sources](setup/creating-data-sources) to see how to acquire this pair.
 
 ## Setup
 
