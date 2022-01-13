@@ -47,7 +47,7 @@ const config = {
             type: 'doc',
             docId: 'ingesting-events',
             position: 'left',
-            label: 'Guides',
+            label: 'API Guides',
           },
           {
             href: 'https://github.com/primedata-ai/docs',

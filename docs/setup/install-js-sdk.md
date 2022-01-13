@@ -1,4 +1,4 @@
-# How to install PrimeData JS SDK
+# Install PrimeData Web SDKs
 
 ### Follow step by step below to install PrimeData JS SDK
 
