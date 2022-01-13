@@ -45,7 +45,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'ingesting-events',
+            docId: 'overview',
             position: 'left',
             label: 'API Guides',
           },
