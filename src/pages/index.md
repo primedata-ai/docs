@@ -7,8 +7,9 @@ import Admonition from '@theme/Admonition';
   </p>
 </Admonition>
 
-Some entries to get you started:
+Some entry points to get you started:
 
+- [Overview](docs/overview)
 - [Creating Data Sources Guide](docs/setup/creating-data-sources)
 - [Event Tracking Guide](docs/events-tracking)
 
