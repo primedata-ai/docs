@@ -57,7 +57,7 @@ $ curl -X POST "https://dev.primedata.ai/powehi/smile"  \
 | `properties`         | Also corresponding the properties that were setup on Event Schema. Make sure all the `required` properties are specified with the correct data type. _(Redundant properties will be trimmed out on server side)._ |
 | `scope`              | Should be exactly the same as the `X-Client-ID`, for now they are both required.                                                                                                                                  |
 | `timeStamp`          | ISO 8601 datetime format. Notes that this is the logical time when the event occurred. You can specify an (optional) explicit tracking time with `sendAt`.                                                        |
-| `source`             | Depends on the event type, this is some time required.                                                                                                                                                            |
+| `source`             | Depends on the event type, this is sometimes required.                                                                                                                                                           |
 | `target`             | Ditto.                                                                                                                                                                                                            |
 
 The above request should response with a `200`-status response with a body of:
