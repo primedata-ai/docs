@@ -15,13 +15,11 @@ To able to incarnate a profile from raw events, you have to understand the relat
 
 <h3 style={{color: BLUE}}>Events</h3>
 
-There are two type of events, **behavioral events** and **system events**.
+There are three type of events:
 
-**Behavioral events** are behaviors initiated from a person, it represents actions that users took from real world.
-
-**Built-in** events are events that have predefined behaviors by the system. A prominent example is `identify` event, where it's `target`'s properties are extracted to out and update to the resolved profile.
-
-**System** events or **"reaction"** events are ones that get generated within the system. Generally these events won't be visible on CDP web app.
+- **Behavioral events** are behaviors initiated from a person, it represents actions that users took from real world.
+- **Built-in events** are events that have predefined behaviors by the system. A prominent example is `identify` event, where it's `target`'s properties are extracted to out and update to the resolved profile.
+- **System events** or **"reaction" events** are ones that get generated within the system. Generally these events won't be visible on CDP web app.
 
 <h3 style={{color: ORANGE}}>Sessions</h3>
 
