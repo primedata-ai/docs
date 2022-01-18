@@ -13,7 +13,7 @@ To able to incarnate a profile from raw events, you have to understand the relat
 
 ## The <span style={{color: BLUE}}>E.</span><span style={{color: ORANGE}}>S.</span><span style={{color: GREEN}}>P.</span> Model
 
-<h3 style={{color: BLUE}}>Events</h3>
+### <span style={{color: BLUE}}>Events</span>
 
 There are three type of events:
 
@@ -21,12 +21,12 @@ There are three type of events:
 - **Built-in events** are events that have predefined behaviors by the system. A prominent example is `identify` event, where it's `target`'s properties are extracted to out and update to the resolved profile.
 - **System events** or **"reaction" events** are ones that get generated within the system. Generally these events won't be visible on CDP web app.
 
-<h3 style={{color: ORANGE}}>Sessions</h3>
+### <span style={{color: ORANGE}}>Sessions</span>
 
 Every events except **system** events always have a `session_id` attached along. This `session_id` is generated on the client side.
 Theoretically speaking, `session_id` logically groups logical events from a same physical person together. A person (or Profile) could have multiple sessions (from different clients/devices, or long gap between interactions from a same device (it's up the client side to decide the boundary between session).
 
-<h3 style={{color: GREEN}}>Profiles</h3>
+### <span style={{color: GREEN}}>Profiles</span>
 
 A Profile is a representative object of a physical person. Profiles are bound with a collection of sessions and events. All of it traits and behaviors are inferred from its own events (it means there are no direct mutation on a profile object).
 
