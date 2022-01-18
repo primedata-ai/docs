@@ -2,13 +2,12 @@
 sidebar_position: 4
 ---
 
-import Admonition from '@theme/Admonition';
-const BLUE = "#137CBD"
-const ORANGE = "#D9822B"
-const GREEN = "#0F9960"
-
-
 # Events Dynamics
+
+import Admonition from '@theme/Admonition';
+const BLUE = "#137CBD";
+const ORANGE = "#D9822B";
+const GREEN = "#0F9960";
 
 To able to incarnate a profile from raw events, you have to understand the relationship of **E**vent-**S**ession-**P**rofile (**E.S.P.**) trinity.
 
