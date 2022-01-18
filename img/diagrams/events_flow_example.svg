@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="2024 -143 755 375" width="755" height="375">
+  <defs>
+    <clipPath id="artboard_clip_path">
+      <path d="M 2024 -143 L 2779 -143 L 2779 232 L 2024 232 Z"/>
+    </clipPath>
+    <font-face font-family="Roboto Mono" font-size="14" panose-1="0 0 0 9 0 0 0 0 0 0" units-per-em="1000" underline-position="-73.24219" underline-thickness="48.828125" slope="0" x-height="528.3203" cap-height="710.9375" ascent="1047.8516" descent="-270.9961" font-weight="400">
+      <font-face-src>
+        <font-face-name name="RobotoMono-Regular"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Roboto Mono" font-size="14" panose-1="0 0 0 9 0 0 0 0 0 0" units-per-em="1000" underline-position="-73.24219" underline-thickness="48.828125" slope="0" x-height="528.3203" cap-height="710.9375" ascent="1047.8516" descent="-270.9961" font-weight="700">
+      <font-face-src>
+        <font-face-name name="RobotoMono-Bold"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="StickArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="#0f9960">
+      <g>
+        <path d="M 8 0 L 0 0 M 0 -3 L 8 0 L 0 3" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="StickArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="#d9822b">
+      <g>
+        <path d="M 4.8 0 L 0 0 M 0 -1.8 L 4.8 0 L 0 1.8" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.5\n2022-01-18 09:39:12 +0000</metadata>
+  <g id="(Public)_Events_Flow" stroke-dasharray="none" stroke-opacity="1" stroke="none" fill="none" fill-opacity="1">
+    <title>(Public) Events Flow</title>
+    <rect fill="white" x="2024" y="-143" width="755" height="375"/>
+    <g id="(Public)_Events_Flow_Layer_1" clip-path="url(#artboard_clip_path)">
+      <title>Layer 1</title>
+      <g id="Group_107">
+        <g id="Graphic_109">
+          <path d="M 2069 -117 L 2424 -117 C 2428.4183 -117 2432 -113.41828 2432 -109 L 2432 141 C 2432 145.41828 2428.4183 149 2424 149 L 2069 149 C 2064.5817 149 2061 145.41828 2061 141 L 2061 -109 C 2061 -113.41828 2064.5817 -117 2069 -117 Z" stroke="#d9822b" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+        </g>
+        <g id="Graphic_108">
+          <text transform="translate(2079.231 -106.45938)" fill="#d9822b">
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="400" fill="#d9822b" x="0" y="15">Session</tspan>
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="700" fill="#d9822b" y="15"> “a-session-id”</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_100">
+        <g id="Graphic_102">
+          <circle cx="2619.732" cy="35.25" r="125.250200137213" stroke="#0f9960" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_101">
+          <clipPath id="clip_path">
+            <path d="M 4 0 L 212.75136 0 C 214.9605 0 216.75136 1.790861 216.75136 4 L 216.75136 15 C 216.75136 17.20914 214.9605 19 212.75136 19 L 4 19 C 1.790861 19 0 17.20914 0 15 L 0 4 C 0 1.790861 1.790861 0 4 0 Z"/>
+          </clipPath>
+          <text clip-path="url(#clip_path)" transform="translate(2511.3564 25)" fill="#424242">
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="400" fill="#424242" x="7.559273" y="15">email: </tspan>
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="700" fill="#0f9960" y="15">someone@gmail.com</tspan>
+          </text>
+        </g>
+        <g id="Graphic_103">
+          <text transform="translate(2590.3273 -44.659906)" fill="#0f9960">
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="400" fill="#0f9960" x="0" y="15">Profile</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_96">
+        <g id="Graphic_99">
+          <path d="M 2334.81 -62 L 2097.3403 -62 C 2096.2358 -62 2095.3403 -61.10457 2095.3403 -60 C 2095.3403 -59.52355 2095.5104 -59.062754 2095.82 -58.70057 L 2153.0841 8.299431 C 2153.464 8.744012 2154.0197 9 2154.6045 9 L 2392.0742 9 C 2393.1788 9 2394.0742 8.1045695 2394.0742 7 C 2394.0742 6.523552 2393.904 6.0627545 2393.5946 5.700569 L 2336.3304 -61.29943 C 2335.9504 -61.74401 2335.395 -62 2334.81 -62 Z" stroke="#137cbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_98">
+          <text transform="translate(2161 -22.246307)" fill="#424242">
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="400" fill="#424242" x="0" y="15">email: </tspan>
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="700" fill="#0f9960" y="15">someone@gmail.com</tspan>
+          </text>
+        </g>
+        <g id="Graphic_97">
+          <title>identify</title>
+          <text transform="translate(2136.8616 -52.832244)" fill="#137cbd">
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="700" fill="#137cbd" x="0" y="15">identify</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_89">
+        <path d="M 2367.6328 -12.746307 C 2367.6328 -12.746307 2483.579 -15.693718 2555 -5 C 2594.2676 .879456 2609.9237 9.362363 2616.0618 15.808669" marker-end="url(#StickArrow_Marker)" stroke="#0f9960" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_88">
+        <line x1="2432" y1="82.5" x2="2491.1106" y2="83.11687" marker-end="url(#StickArrow_Marker_2)" stroke="#d9822b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_114">
+        <g id="Graphic_117">
+          <path d="M 2252.5335 36 L 2096.1583 36 C 2095.0537 36 2094.1583 36.89543 2094.1583 38 C 2094.1583 38.295715 2094.2239 38.58775 2094.3503 38.855075 L 2132.6585 119.85508 C 2132.9891 120.55417 2133.6932 121 2134.4665 121 L 2290.8417 121 C 2291.9463 121 2292.8417 120.10457 2292.8417 119 C 2292.8417 118.70429 2292.7761 118.41225 2292.6497 118.14492 L 2254.3415 37.144925 C 2254.0109 36.445834 2253.3068 36 2252.5335 36 Z" stroke="#137cbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_116">
+          <text transform="translate(2168.358 65.88281)" fill="#424242">
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="400" fill="#424242" x="0" y="15">currentURL</tspan>
+          </text>
+        </g>
+        <g id="Graphic_115">
+          <title>identify</title>
+          <text transform="translate(2131.424 44.96094)" fill="#137cbd">
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="700" fill="#137cbd" x="0" y="15">click</tspan>
+          </text>
+        </g>
+        <g id="Graphic_118">
+          <text transform="translate(2166.1573 90.80469)" fill="#424242">
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="400" fill="#424242" x="0" y="15">clickedItem</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_125">
+        <line x1="2393.565" y1="8.333209" x2="2432" y2="82.5" stroke="#d9822b" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_126">
+        <line x1="2273.9" y1="78.5" x2="2432" y2="82.5" stroke="#d9822b" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.0,4.0" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
