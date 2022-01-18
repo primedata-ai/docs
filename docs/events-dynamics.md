@@ -3,14 +3,18 @@ sidebar_position: 4
 ---
 
 import Admonition from '@theme/Admonition';
+const BLUE = "#137CBD"
+const ORANGE = "#D9822B"
+const GREEN = "#0F9960"
+
 
 # Events Dynamics
 
 To able to incarnate a profile from raw events, you have to understand the relationship of **E**vent-**S**ession-**P**rofile (**E.S.P.**) trinity.
 
-## The E.S.P. Model
+## The <span style={{color: BLUE}}>E.</span><span style={{color: ORANGE}}>S.</span><span style={{color: GREEN}}>P.</span> Model
 
-### Events
+<h3 style={{color: BLUE}}>Events</h3>
 
 There are two type of events, **behavioral events** and **system events**.
 
@@ -20,12 +24,12 @@ There are two type of events, **behavioral events** and **system events**.
 
 **System** events or **"reaction"** events are ones that get generated within the system. Generally these events won't be visible on CDP web app.
 
-### Sessions
+<h3 style={{color: ORANGE}}>Sessions</h3>
 
 Every events except **system** events always have a `session_id` attached along. This `session_id` is generated on the client side.
 Theoretically speaking, `session_id` logically groups logical events from a same physical person together. A person (or Profile) could have multiple sessions (from different clients/devices, or long gap between interactions from a same device (it's up the client side to decide the boundary between session).
 
-### Profiles
+<h3 style={{color: GREEN}}>Profiles</h3>
 
 A Profile is a representative object of a physical person. Profiles are bound with a collection of sessions and events. All of it traits and behaviors are inferred from its own events (it means there are no direct mutation on a profile object).
 
