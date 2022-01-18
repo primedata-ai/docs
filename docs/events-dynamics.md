@@ -18,7 +18,7 @@ To able to incarnate a profile from raw events, you have to understand the relat
 
 There are two type of events, **behavioral events** and **system events**.
 
-**Behavioral events** are behaviors initiated from a person, it represent actions that users took from real world.
+**Behavioral events** are behaviors initiated from a person, it represents actions that users took from real world.
 
 **Built-in** events are events that have predefined behaviors by the system. A prominent example is `identify` event, where it's `target`'s properties are extracted to out and update to the resolved profile.
 
