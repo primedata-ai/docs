@@ -1,5 +1,13 @@
 # Install PrimeData Web SDKs
 
+import Admonition from '@theme/Admonition';
+
+<Admonition type="caution" icon="🚧" title="Work in Progress">
+  <p>
+  This document needs a rewrite.
+  </p>
+</Admonition>
+
 ### Follow step by step below to install PrimeData JS SDK
 
 - Create new file **OneSignalSDKWorker.js** contain content below into root folder of project:
