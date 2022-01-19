@@ -40,7 +40,7 @@ A typical flow to fabricate a profile is:
 
 
 **Step #1**: First, send a `identify` event with a specific session ID.
-In the identify events, specify a PII (***P**ersonal **I**dentifiable **I**nformation on the event's `target.properties`).
+In the identify events, specify a PII (**P**ersonal **I**dentifiable **I**nformation on the event's `target.properties`).
 The `target`'s `itemType` must be `"analyticsUser"` for now (`itemId` — which usually comes in pair with `itemType` — can be skipped). An example of an `identify` event's payload:
 
 ```javascript
@@ -56,6 +56,14 @@ The `target`'s `itemType` must be `"analyticsUser"` for now (`itemId` — which 
 
 }
 ```
+
+The PII in this example is `email`. Currently these properties are accepted as PII:
+ - `email`
+ - `phone`
+ - `cellphone`
+ - `phone_number`
+ - `device_id`
+ - `id`
 
 **Step #2**: Secondly, send a desired behavioral events, a `click` for example:
 
