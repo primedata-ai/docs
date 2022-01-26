@@ -24,7 +24,7 @@ There are three type of events:
 ### <span style={{color: ORANGE}}>Sessions</span>
 
 Every events except **system** events always have a `session_id` attached along. This `session_id` is generated on the client side.
-Theoretically speaking, `session_id` logically groups logical events from a same physical person together. A person (or Profile) could have multiple sessions (from different clients/devices, or long gap between interactions from a same device (it's up the client side to decide the boundary between session).
+Theoretically speaking, `session_id` logically groups logical events from a same physical person together. A person (or Profile) could have multiple sessions (from different clients/devices, or long gap between interactions from a same device (it's up the client side to decide the boundary between sessions).
 
 ### <span style={{color: GREEN}}>Profiles</span>
 
