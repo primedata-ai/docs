@@ -9,7 +9,7 @@ const config = {
   title: 'PrimeData Docs',
   tagline: 'Dinosaurs are cool',
   url: 'https://primedata.ai/',
-  baseUrl: '/docs/',
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
