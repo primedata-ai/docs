@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="1171.0901 -147 751 468" width="751" height="468">
+  <defs>
+    <clipPath id="artboard_clip_path">
+      <path d="M 1171.0901 -147 L 1922.09 -147 L 1922.09 321 L 1171.0901 321 Z"/>
+    </clipPath>
+    <font-face font-family="Roboto Mono" font-size="14" panose-1="0 0 0 9 0 0 0 0 0 0" units-per-em="1000" underline-position="-73.24219" underline-thickness="48.828125" slope="0" x-height="528.3203" cap-height="710.9375" ascent="1047.8516" descent="-270.9961" font-weight="700">
+      <font-face-src>
+        <font-face-name name="RobotoMono-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Roboto Mono" font-size="14" panose-1="0 0 0 9 0 0 0 0 0 0" units-per-em="1000" underline-position="-73.24219" underline-thickness="48.828125" slope="0" x-height="528.3203" cap-height="710.9375" ascent="1047.8516" descent="-270.9961" font-weight="400">
+      <font-face-src>
+        <font-face-name name="RobotoMono-Regular"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="StickArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="#0f9960">
+      <g>
+        <path d="M 8 0 L 0 0 M 0 -3 L 8 0 L 0 3" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="StickArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="#d9822b">
+      <g>
+        <path d="M 4.8 0 L 0 0 M 0 -1.8 L 4.8 0 L 0 1.8" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="StickArrow_Marker_3" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="#929292">
+      <g>
+        <path d="M 8 0 L 0 0 M 0 -3 L 8 0 L 0 3" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Avenir Next" font-size="14" panose-1="2 11 5 3 2 2 2 2 2 4" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="468" cap-height="708" ascent="1e3" descent="-365.9973" font-weight="400">
+      <font-face-src>
+        <font-face-name name="AvenirNext-Regular"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="StickArrow_Marker_4" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="#d9822b">
+      <g>
+        <path d="M 8 0 L 0 0 M 0 -3 L 8 0 L 0 3" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.5\n2022-01-19 03:48:08 +0000</metadata>
+  <g id="(Public)_Events_Flow" stroke-dasharray="none" stroke-opacity="1" stroke="none" fill="none" fill-opacity="1">
+    <title>(Public) Events Flow</title>
+    <rect fill="white" x="1171.0901" y="-147" width="751" height="468"/>
+    <g id="(Public)_Events_Flow_Layer_1" clip-path="url(#artboard_clip_path)">
+      <title>Layer 1</title>
+      <g id="Group_10">
+        <g id="Graphic_8">
+          <path d="M 1219.0901 -105.11674 L 1533.0901 -105.11674 C 1537.5084 -105.11674 1541.0901 -101.53501 1541.0901 -97.11674 L 1541.0901 206.88326 C 1541.0901 211.30154 1537.5084 214.88326 1533.0901 214.88326 L 1219.0901 214.88326 C 1214.6718 214.88326 1211.0901 211.30154 1211.0901 206.88326 L 1211.0901 -97.11674 C 1211.0901 -101.53501 1214.6718 -105.11674 1219.0901 -105.11674 Z" stroke="#d9822b" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+        </g>
+        <g id="Graphic_9">
+          <text transform="translate(1226.0901 -95.11674)" fill="#d9822b">
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="700" fill="#d9822b" x="0" y="15">Session X1</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_25">
+        <g id="Graphic_20">
+          <path d="M 1423.1994 29.360076 L 1284.5808 29.360076 C 1283.4763 29.360076 1282.5808 30.255507 1282.5808 31.360076 C 1282.5808 31.85416 1282.7637 32.330757 1283.0942 32.698006 L 1315.4942 68.69801 C 1315.8735 69.11943 1316.4139 69.36008 1316.9808 69.36008 L 1455.5994 69.36008 C 1456.704 69.36008 1457.5994 68.46465 1457.5994 67.36008 C 1457.5994 66.86599 1457.4165 66.3894 1457.086 66.02215 L 1424.686 30.022147 C 1424.3067 29.60072 1423.7664 29.360076 1423.1994 29.360076 Z" stroke="#137cbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_6">
+          <text transform="translate(1328.0901 39.860076)" fill="#137cbd">
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="700" fill="#137cbd" x="0" y="15">pageView</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_31">
+        <title>Profile</title>
+        <g id="Graphic_13">
+          <text transform="translate(1746.1938 9.557803)" fill="#0f9960">
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="700" fill="#0f9960" x="0" y="15">Profile X</tspan>
+          </text>
+        </g>
+        <g id="Graphic_15">
+          <circle cx="1783" cy="58.5" r="72.0001150489365" stroke="#0f9960" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_16">
+          <text transform="translate(1761.5 44.5)" fill="#424242">
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="400" fill="#424242" x="0" y="15">a_pii</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_28">
+        <g id="Graphic_18">
+          <path d="M 1439.8746 -54 L 1284.0292 -54 C 1282.9246 -54 1282.0292 -53.10457 1282.0292 -52 C 1282.0292 -51.57569 1282.1641 -51.16238 1282.4145 -50.81982 L 1319.6909 .18018039 C 1320.0675 .6954226 1320.6674 1 1321.3056 1 L 1477.151 1 C 1478.2556 1 1479.151 .1045695 1479.151 -1 C 1479.151 -1.4243078 1479.016 -1.8376209 1478.7657 -2.1801804 L 1441.4893 -53.18018 C 1441.1127 -53.69542 1440.5128 -54 1439.8746 -54 Z" stroke="#137cbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_19">
+          <text transform="translate(1360.5867 -25.117188)" fill="#424242">
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="400" fill="#424242" x="0" y="15">a_pii</tspan>
+          </text>
+        </g>
+        <g id="Graphic_2">
+          <title>identify</title>
+          <text transform="translate(1309.9121 -49.03906)" fill="#137cbd">
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="700" fill="#137cbd" x="0" y="15">identify</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_26">
+        <g id="Graphic_21">
+          <path d="M 1423.1994 90.5 L 1284.5808 90.5 C 1283.4763 90.5 1282.5808 91.39543 1282.5808 92.5 C 1282.5808 92.99408 1282.7637 93.47068 1283.0942 93.83793 L 1315.4942 129.83793 C 1315.8735 130.25936 1316.4139 130.5 1316.9808 130.5 L 1455.5994 130.5 C 1456.704 130.5 1457.5994 129.60457 1457.5994 128.5 C 1457.5994 128.00592 1457.4165 127.52932 1457.086 127.16207 L 1424.686 91.16207 C 1424.3067 90.74064 1423.7664 90.5 1423.1994 90.5 Z" stroke="#137cbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_22">
+          <text transform="translate(1325.0901 101)" fill="#137cbd">
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="700" fill="#137cbd" x="0" y="15">productClick</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_27">
+        <g id="Graphic_23">
+          <path d="M 1423.1994 151 L 1284.5808 151 C 1283.4763 151 1282.5808 151.89543 1282.5808 153 C 1282.5808 153.49408 1282.7637 153.97068 1283.0942 154.33793 L 1315.4942 190.33793 C 1315.8735 190.75936 1316.4139 191 1316.9808 191 L 1455.5994 191 C 1456.704 191 1457.5994 190.10457 1457.5994 189 C 1457.5994 188.50592 1457.4165 188.02932 1457.086 187.66207 L 1424.686 151.66207 C 1424.3067 151.24064 1423.7664 151 1423.1994 151 Z" stroke="#137cbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_24">
+          <text transform="translate(1322.6819 161.5)" fill="#137cbd">
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="700" fill="#137cbd" x="0" y="15">cartCheckout</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_29">
+        <path d="M 1408.955 -15.617187 C 1408.955 -15.617187 1474.1222 -25.722898 1574 -6 C 1654.7996 9.955516 1727.5784 39.36285 1752.434 50.0152" marker-end="url(#StickArrow_Marker)" stroke="#0f9960" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_30">
+        <line x1="1541.0901" y1="134.88326" x2="1718.5296" y2="110.38408" marker-end="url(#StickArrow_Marker_2)" stroke="#d9822b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_33">
+        <line x1="1647.7342" y1="12.375957" x2="1649.9658" y2="95.36372" marker-end="url(#StickArrow_Marker_3)" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_34">
+        <rect x="1622.374" y="41.193416" width="53.05" height="29" fill="white"/>
+        <text transform="translate(1627.374 46.193416)" fill="#7f7f7f">
+          <tspan font-family="Avenir Next" font-size="14" font-weight="400" fill="#7f7f7f" x="0" y="14">causes</tspan>
+        </text>
+      </g>
+      <g id="Group_41">
+        <g id="Graphic_43">
+          <path d="M 1219.0901 243 L 1533.0901 243 C 1537.5084 243 1541.0901 246.58172 1541.0901 251 L 1541.0901 275 C 1541.0901 279.41828 1537.5084 283 1533.0901 283 L 1219.0901 283 C 1214.6718 283 1211.0901 279.41828 1211.0901 275 L 1211.0901 251 C 1211.0901 246.58172 1214.6718 243 1219.0901 243 Z" stroke="#d9822b" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.0,4.0" stroke-width="1"/>
+        </g>
+        <g id="Graphic_42">
+          <text transform="translate(1223.0901 251)" fill="#d9822b">
+            <tspan font-family="Roboto Mono" font-size="14" font-weight="700" fill="#d9822b" x="0" y="15">Session X2</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_44">
+        <path d="M 1541.0901 263 C 1541.0901 263 1651.95 261.54134 1720.4844 203.60547 C 1743.8453 183.85716 1758.544 160.71222 1767.7715 138.78077" marker-end="url(#StickArrow_Marker_4)" stroke="#d9822b" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_45">
+        <rect x="1630.8868" y="105.26014" width="39.47" height="29" fill="white"/>
+        <text transform="translate(1635.8868 110.26014)" fill="#7f7f7f">
+          <tspan font-family="Avenir Next" font-size="14" font-weight="400" fill="#7f7f7f" x="58264504e-20" y="14">bind</tspan>
+        </text>
+      </g>
+      <g id="Graphic_46">
+        <rect x="1574.2155" y="-14.334156" width="56.046" height="29" fill="white"/>
+        <text transform="translate(1579.2155 -9.334156)" fill="#7f7f7f">
+          <tspan font-family="Avenir Next" font-size="14" font-weight="400" fill="#7f7f7f" x="0" y="14">match?</tspan>
+        </text>
+      </g>
+      <g id="Line_119">
+        <line x1="1457.0901" y1="68.69341" x2="1541.0901" y2="134.88326" stroke="#d9822b" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_120">
+        <line x1="1442.0901" y1="110.5" x2="1541.0901" y2="134.88326" stroke="#d9822b" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_121">
+        <line x1="1440.1577" y1="171" x2="1541.0901" y2="134.88326" stroke="#d9822b" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_122">
+        <line x1="1478.6441" y1=".33069566" x2="1541.0901" y2="134.88326" stroke="#d9822b" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.0,4.0" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
