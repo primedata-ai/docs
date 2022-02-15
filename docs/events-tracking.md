@@ -38,19 +38,19 @@ $ curl -X POST "https://dev.primedata.ai/powehi/smile"  \
       -H "X-Client-Access-Token: ${YOUR_DATA_SOURCE_WRITE_KEY}" \
       -H 'Content-Type: application/json' \
       -d '{
-      "sessionId": "45d01662-45ad-4f52-9d4f-ef77fde0b17a",
-      "sendAt": "2022-02-15T02:40:33Z"
-      "events": [
+            "sessionId": "45d01662-45ad-4f52-9d4f-ef77fde0b17a",
+            "events": [
               {
-                  "eventType": "view",
-                  "sessionId": ${CLIENT_UNIQUE_SESSION_ID},
-                  "properties": {},
-                  "scope": ${YOUR_DATA_SOURCE_ID},
-                  "timeStamp": "2021-10-15T18:49:00+07:00",
-                  "source": { "itemId": "_", "itemType": "_", "scope": ${YOUR_DATA_SOURCE_WRITE_KEY} },
-                  "target": { "itemId": "_", "itemType": "_", "scope": ${YOUR_DATA_SOURCE_WRITE_KEY} }
+                "eventType": "view",
+                "sessionId": ${CLIENT_UNIQUE_SESSION_ID},
+                "properties": {},
+                "scope": ${YOUR_DATA_SOURCE_ID},
+                "timeStamp": "2021-10-15T18:49:00+07:00",
+                "source": { "itemId": "_", "itemType": "_", "scope": ${YOUR_DATA_SOURCE_WRITE_KEY} },
+                "target": { "itemId": "_", "itemType": "_", "scope": ${YOUR_DATA_SOURCE_WRITE_KEY} }
               }
-          ]}'
+            ]
+          }'
 ```
 
 ### Body attributes
@@ -83,8 +83,9 @@ $ curl -X POST "https://dev.primedata.ai/powehi/smile"  \
 | `scope`    | Yes      | This is identical to the data source ID / `X-Client-ID`, currently this has to be specified explicitly. |
 
 
+### Response
 
-The above request should response with a `200`-status response with a body of:
+The described request should response with a `200`-status response with a body of:
 ```json
 {"updated": 0}
 ````
