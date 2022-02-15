@@ -8,13 +8,19 @@ Once done, you can try to [Send Events](../events-tracking#sending-events)
 
 ## Via API
 
+
 The endpoint: https://dev.primedata.ai/v1/chiron/events.
+
+### Firstly, about authorization
+
+This endpoint belongs to **App API**, its authorization here runs a totally different scheme with the **Event Tracking API** (See [Overview](../overview)). It uses a different single JWT token (`APP_API_TOKEN` on the below example).
+As of now, to acquire one, contact <a href="mailto:huy.le@primedata.ai">huy.le@primedata.ai</a>.
 
 Example:
 
 ```
 $ curl -X POST https://dev.primedata.ai/v1/chiron/events \
-       -H 'Authorization: Basic ${JWT_TOKEN}' \
+       -H 'Authorization: Bearer ${APP_API_TOKEN}' \
        -d '{
          "alias": "an-event-id",
          "title": "My Event",
