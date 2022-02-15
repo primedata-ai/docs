@@ -50,7 +50,8 @@ $ curl -X POST "https://dev.primedata.ai/powehi/smile"  \
                 "target": { "itemId": "_", "itemType": "_", "scope": ${YOUR_DATA_SOURCE_WRITE_KEY} }
               }
             ]
-          }'
+          }' \
+      -D -
 ```
 
 ### Body attributes
