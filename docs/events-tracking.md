@@ -47,8 +47,8 @@ $ curl -X POST "https://dev.primedata.ai/powehi/smile"  \
                 },
                 "scope": ${YOUR_DATA_SOURCE_ID},
                 "timeStamp": "2021-10-15T18:49:00+07:00",
-                "source": { "itemId": "_", "itemType": "_", "scope": ${YOUR_DATA_SOURCE_WRITE_KEY} },
-                "target": { "itemId": "_", "itemType": "_", "scope": ${YOUR_DATA_SOURCE_WRITE_KEY} }
+                "source": { "itemId": "_", "itemType": "_", "scope": ${YOUR_DATA_SOURCE_ID} },
+                "target": { "itemId": "_", "itemType": "_", "scope": ${YOUR_DATA_SOURCE_ID} }
               }
             ]
           }' \
@@ -72,7 +72,7 @@ $ curl -X POST "https://dev.primedata.ai/powehi/smile"  \
 | `scope`      | Yes      | Should be exactly the same as the data source ID / `X-Client-ID`, currently this has to be specified explicitly.                                                                                                  |
 | `timeStamp`  | Yes      | ISO-8601 datetime format, logical time when the event occurred.                                                                                                                                                   |
 | `sendAt`     | No       | ISO-8601 datetime format, optional client sending time.                                                                                                                                                           |
-| `properties` | Yes      | Corresponds to the properties that were setup on **Event Schema**. Make sure all the `required` properties are specified with the correct data type. _(Redundant properties will be trimmed out on server side)._ |
+| `properties` | No*      | Corresponds to the properties that were setup on **Event Schema**. Make sure all the `required` properties are specified with the correct data type. _(Redundant properties will be trimmed out on server side)._ |
 | `source`     | Yes      | An **Entity** item, for now _this is always required_.                                                                                                                                                            |
 | `target`     | Yes      | Ditto.                                                                                                                                                                                                            |
 
