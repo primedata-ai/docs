@@ -3,13 +3,14 @@ import Admonition from '@theme/Admonition';
 <Admonition type="caution" icon="🚧" title="Documents are under construction...">
   <p>
   These documents are highly unstructured and aren't really well-formed.
-  For any further clarification, or (understandable) ranting, please contact us at <a href="mailto:huy.le@primedata.ai">huy.le@primedata.ai</a>.
+  For any further clarification, or (understandable) ranting, please contact us at <a href="mailto:engineering@primedata.ai">engineering@primedata.ai</a>.
   </p>
 </Admonition>
 
-Some entry points to get you started:
+Some entries to get you started:
 
 - [Overview](docs/overview)
-- [Creating Data Sources Guide](docs/setup/creating-data-sources)
-- [Event Tracking Guide](docs/events-tracking)
+- [Creating Data Sources](docs/setup/creating-data-sources)
+- [Creating Events](docs/events-tracking)
+- [Creating Entities](docs/entities)
 

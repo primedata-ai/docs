@@ -73,8 +73,8 @@ $ curl -X POST "https://dev.primedata.ai/powehi/smile"  \
 | `timeStamp`  | Yes      | ISO-8601 datetime format, logical time when the event occurred.                                                                                                                                                   |
 | `sendAt`     | No       | ISO-8601 datetime format, optional client sending time.                                                                                                                                                           |
 | `properties` | No*      | Corresponds to the properties that were setup on **Event Schema**. Make sure all the `required` properties are specified with the correct data type. _(Redundant properties will be trimmed out on server side)._ |
-| `source`     | Yes      | An **Entity** item, for now _this is always required_.                                                                                                                                                            |
-| `target`     | Yes      | Ditto.                                                                                                                                                                                                            |
+| `source`     | Yes      | Preserved for the profile context data.                                                                                                                                                                           |
+| `target`     | Yes      | Preserved for the entity data.                                                                                                                                                                                    |
 
 #### Entity's (`source` / `target`) attributes
 

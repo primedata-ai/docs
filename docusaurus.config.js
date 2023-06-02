@@ -15,6 +15,8 @@ const config = {
   favicon: 'img/logo.png',
   organizationName: 'primedata-ai',
   projectName: 'docs',
+  // plugins: ['docusaurus-plugin-openapi'], // Doesn't work for now
+  plugins: [],
 
   presets: [
     [
