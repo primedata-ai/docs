@@ -1,6 +1,6 @@
 # Entities
 
-The entity concept is an earlier missing piece in our model of a full sentence:
+The entity concept is an object component in Prime's model of a full sentence:
 
 **Subject** (profile) + **Verb** (event) + **Object** (entity).
 
