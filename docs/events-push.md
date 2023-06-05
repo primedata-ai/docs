@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Events Pushing API
+# Events Push API
 
 The main endpoints is depended on the deployed site. For this document, we'll target the *Development* environment,
 in which, the main endpoints for event collecting are https://dev.primedata.ai/powehi/context and https://dev.primedata.ai/powehi/smile.

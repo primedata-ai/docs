@@ -11,6 +11,6 @@ Some entries to get you started:
 
 - [Overview](docs/overview)
 - [Creating Data Sources](docs/setup/creating-data-sources)
-- [Creating Events](docs/events-tracking)
+- [Creating Events](docs/events-push)
 - [Creating Entities](docs/entities)
 

@@ -38,7 +38,7 @@ Both of these pieces of information are derived from the data source *and* could
 </Admonition>
 
 
-Entity ingestion leverage the same mechanism with [event ingestion](/docs/events-tracking).
+Entity ingestion leverage the same mechanism with [event ingestion](/docs/events-push).
 The notable difference is that the `eventType` is always `"SaveEntity"` and the placement of the object's properties:
 
 ```bash

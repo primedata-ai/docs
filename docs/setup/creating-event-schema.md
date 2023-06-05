@@ -4,7 +4,7 @@
 
 Go to [Event Schemas Overview](https://dev.primedata.ai/Prime/en/schemas/event/overview) click <img height="28" style={{transform: 'translateY(.5rem)'}} alt="Event Schema create button" src="/img/btn_event_schema_create.png"/>. Choose the event name, add the necessary properties, then <img height="28" style={{transform: 'translateY(.5rem)'}} alt="Event Schema create button" src="/img/btn_event_schema_publish.png"/> it.
 
-Once done, you can try to [Send Events](../events-tracking#sending-events)
+Once done, you can try to [Send Events](../events-push#sending-events)
 
 ## Via API
 
@@ -13,7 +13,7 @@ The endpoint: https://dev.primedata.ai/v1/chiron/events.
 
 ### Firstly, about authorization
 
-This endpoint belongs to **App API**, its authorization here runs a totally different scheme with the **Event Tracking API** (See [Overview](../overview)). It uses a different single JWT token (`APP_API_TOKEN` on the below example).
+This endpoint belongs to **App API**, its authorization here runs a totally different scheme with the **Event Push API** (See [Overview](../overview)). It uses a different single JWT token (`APP_API_TOKEN` on the below example).
 As of now, to acquire one, contact <a href="mailto:huy.le@primedata.ai">huy.le@primedata.ai</a>.
 
 Example:
