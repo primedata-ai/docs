@@ -13,4 +13,4 @@ Some entries to get you started:
 - [Creating Data Sources](docs/setup/creating-data-sources)
 - [Creating Events](docs/events-push)
 - [Creating Entities](docs/entities)
-
+- [Query Profile API](docs/profile-api)
