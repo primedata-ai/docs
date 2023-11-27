@@ -18,7 +18,7 @@ Có 2 loại API:
 ### Header
 | Header | Kiểu dữ liệu | Mô tả | Ví dụ |
 | --- | --- | --- | --- |
-| x-api-key | String | API sẽ được Primedata cung cấp để tương tác với API| aGdqZ2tqaGtqZzoxMjM0NTY3 |
+| x-api-key | String | API key sẽ được Primedata cung cấp để tương tác với API| aGdqZ2tqaGtqZzoxMjM0NTY3 |
 
 ### Request body
 
@@ -75,7 +75,7 @@ Format response dữ liệu như sau:
 ### Header
 | Header | Kiểu dữ liệu | Mô tả | Ví dụ |
 | --- | --- | --- | --- |
-| x-api-key | String | API sẽ được Primedata cung cấp để tương tác với API| aGdqZ2tqaGtqZzoxMjM0NTY3 |
+| x-api-key | String | API key sẽ được Primedata cung cấp để tương tác với API| aGdqZ2tqaGtqZzoxMjM0NTY3 |
 
 ### Request body
 
