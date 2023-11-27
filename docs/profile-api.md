@@ -26,6 +26,10 @@ Có 2 loại API:
 | --- | --- | --- | --- | --- | --- | --- |
 | type | list | Chỉ ra các loại dữ liệu muốn lấy là Trait, P-trait hay Identity | List chỉ nhận giá trị trong số "trait", "ptrait", "identity" | Không | ["trait", "ptrait", "identity"] | type=["trait"] type=["trait","ptrait"] type=["trait","identity"] |
 | include | list | Chỉ rõ các property muốn lấy.| List chỉ nhận giá trị kiểu string | Không | Tất cả properties | include = ["full_name", "phone_number", "ltv"] |
+| identities | dict | chứa các identity và danh sách giá trị từng identity | identity phải có sẵn, nếu identity không hợp lệ sẽ bị lỗi | * |  | {"phone_number": [0123456789]} |
+| profile_id | string | id của profile trong hệ thống của Primedata | Không | * |  | 2YhQlO5kmTIRCu22QrO9BmgwbIy |
+
+#### * Bắt buộc phải có identities hoặc profile_id. Nếu có cả 2 thì sẽ query dựa trên profile_id
 
 Format response dữ liệu như sau:
 
@@ -83,8 +87,12 @@ Format response dữ liệu như sau:
 | sort | string | Chỉ nhận giá trị "asc" hoặc "desc" | Trả về thứ tự event tăng dần (asc) hay giảm dần (desc) theo timestamp | Không | Không có thứ tự | asc,desc |
 | limit | int | limit > 0 | Số event sẽ được trả về (tối đa 100) | Không | 25 | 12 |
 | cursor | string | cursor được lấy từ lần request trước | vị trí bắt đầu của event kế tiếp | Không |  |  |
+| identities | dict | chứa các identity và danh sách giá trị từng identity | identity phải có sẵn, nếu identity không hợp lệ sẽ bị lỗi | ** |  | {"phone_number": [0123456789]} |
+| profile_id | string | id của profile trong hệ thống của Primedata | Không | ** |  | 2YhQlO5kmTIRCu22QrO9BmgwbIy |
 
 #### * : nếu nhập cả start và end. Sẽ lấy tất cả event phát sinh trong khoảng start và end
+#### ** Bắt buộc phải có identities hoặc profile_id. Nếu có cả 2 thì sẽ query dựa trên profile_id
+
 
 Format dữ liệu như sau:
 
