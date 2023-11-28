@@ -62,7 +62,7 @@ $ curl -X POST "https://dev.primedata.ai/powehi/smile"  \
 | Name        | Required | Description                                                                                                                              |
 |:------------|:---------|:-----------------------------------------------------------------------------------------------------------------------------------------|
 | `sessionId` | Yes      | A unique random ID generated on client side. Any format is okay, but preferably a [UUID](https://datatracker.ietf.org/doc/html/rfc4122). |
-| `events`    | Yes      | An array of Event objects                                                                                                                |
+| `events`    | Yes      | An array of Event objects. **Max 500 events**                                                                                                |
 
 #### `events`' object attributes
 
@@ -90,9 +90,53 @@ $ curl -X POST "https://dev.primedata.ai/powehi/smile"  \
 
 The described request should response with a `200`-status response with a body of:
 ```json
-{"updated": 0}
-````
+{
+    "processedEvents": 2,
+    "profileId": null
+}
+```
 
-_(`0` here means there's no **profile** get updated from this event)._
+`2` here means there are 2 **events** is processed.
+`null` here means there's no **profile** get updated from this event.
+
+### Error body
+
+```jsx
+401 Unauthorized
+{
+  "error": {
+    "message": "client: unauthorized"
+  }
+}
+```
+
+```jsx
+422 Unprocessable Entity
+{
+    "error": {
+        "details": [
+            {
+                "field": "source.itemId",
+                "description": "String length must be greater than or equal to 1"
+            }
+        ],
+        "message": "Schema is invalid"
+    }
+}
+```
+
+### API Response
+
+| CODE| STATUS | DESCRIPTION | MESSAGE |
+| --- | --- | --- | --- |
+| 200 | OK | Everything worked as expected. |
+| 400 | Bad Request | |
+| 401 | Unauthorized | No valid Access Token provided. | `client: unauthorized` |
+| 404 | Not Found | The requested resource doesn’t exist. |
+| 422 | Unprocessable Entity | There are something wrong with your event's field value. | `scope is not exists`, `Item not found`, `Schema is invalid` |
+| 429 | Too Many Requests | More than **1024** concurrent request from this ip |
+| 5xx | Server Errors | Something went wrong on PrimeData’s side. |
+
+
 
 That newly ingested event can be inspected at "Event Logs" of your Data Source on https://dev.primedata.ai/Prime/en/data-source.
