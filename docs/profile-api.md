@@ -148,7 +148,7 @@ Format dữ liệu như sau:
 | 401 | Unauthorized | No valid Access Token provided. |
 | 404 | Not Found | The requested resource doesn’t exist. |
 | 429 | Too Many Requests | Too many requests hit the API too quickly. PrimeData recommends an exponential backoff of your requests. |
-| 500, 502, 503, 504 | Server Errors | Something went wrong on PrimeData’s side. |
+| 5xx | Server Errors | Something went wrong on PrimeData’s side. |
 
 ### Error body
 
