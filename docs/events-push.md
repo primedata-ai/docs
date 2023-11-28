@@ -61,7 +61,7 @@ $ curl -X POST "https://dev.primedata.ai/powehi/smile"  \
 
 | Name        | Required | Description                                                                                                                              |
 |:------------|:---------|:-----------------------------------------------------------------------------------------------------------------------------------------|
-| `sessionId` | Yes      | A unique random ID generated on client side. Any format is okay, but preferably a [UUID](https://datatracker.ietf.org/doc/html/rfc4122). |
+| `sessionId` | No      | A unique random ID generated on client side. Any format is okay, but preferably a [UUID](https://datatracker.ietf.org/doc/html/rfc4122). |
 | `events`    | Yes      | An array of Event objects. **Max 500 events**                                                                                                |
 
 #### `events`' object attributes
